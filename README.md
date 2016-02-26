@@ -2,14 +2,28 @@
 SBMLT working on robotics
 
 ## Purpose
-This is git repository for Stony Brook Machine Learning Team's spcial group project. I will make this private repository if things are really get going and needs confidentiality. (As far as I know, they are participating [IGVC](http://www.igvc.org) which is actual competition with other schools. 
+This is git repository for Stony Brook Machine Learning Team's spcial group project. I will make this private repository if things are really get going and needs confidentiality. (As far as I know, they are participating [IGVC](http://www.igvc.org) which is actual competition with other schools.
+
+##IGVC
+The objective of the competition is to minimize the distance it uses to navigate through the map, hitting every waypoints, without crossing lines, avoiding obstacles, and come back to the start point.
+
+###About robot
+The robot has a lot of sensors, gyro, GPS, accelerometer, IMU sensors. But most importantly two cameras facing forward, 12cm apart from each other. They are using two of them to use computer vision related algorithm to create a bird view of the plane. 
+
+###[Rules](http://www.igvc.org/2016IGVCRules.pdf)
+The rule of the competition limits the amount of power the robot can use. However, he said we can assume unlimited power for now and later integrate it and come up with come solution.
 
 ### Reading
 We will share reading related to the machine learning techniques that can help the robotics team.
 
+####Convolutionary Neural Network
+#####[Alex Net](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+
 ### Lectures
+[Convolutional Neural Network](https://youtu.be/n6hpQwq7Inw?list=PLNlv3xIQ7DATd3ARF_NtKUs2nzuH_mhWd)
 
 ### Papers
+[ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
 
 ### Others
 
@@ -29,6 +43,4 @@ He says he is mostly tied up with administrative works, so we have a great chanc
 
 ## Some possible keywords to start with
 * Noise reduction
-* GPS data
-* Gyro data
 * Image processing
