@@ -30,12 +30,13 @@ The things we should start doing:
 
 ### Papers
 Okay, some of these papers are behind a paywall, as long as you are on a WolfieNet internet connection you should be able to access them without a problem. They will not all be relevant, in particular the SLAM has kind of already been implemented and the Image Patch Matching is part of SLAM, so it is not priority to study. Start with Contour and Texture segmentation if you want to try to do line detection, Efficient Sliding windows to try to do object recognition, or find better methods than the papers posted. Post more papers as you deem relevant.
-[ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
-[Simultaneous Localization and Mapping (SLAM) Introduction](http://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf)
-[Robot Navigation by Machine Learning](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6419894&tag=1)
-[Contour and Texture Segmentation Introduction](http://www.cs.berkeley.edu/~malik/papers/MalikBLS.pdf)
-[Efficient Sliding Windows Object Localization](http://www.kyb.mpg.de/fileadmin/user_upload/files/publications/pdfs/pdf5070.pdf)
-[Image Patch Matching](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf)
+
+* [ImageNet Classification with Deep Convolutional Neural Networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)
+* [Simultaneous Localization and Mapping (SLAM) Introduction](http://ocw.mit.edu/courses/aeronautics-and-astronautics/16-412j-cognitive-robotics-spring-2005/projects/1aslam_blas_repo.pdf)
+* [Robot Navigation by Machine Learning](http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6419894&tag=1)
+* [Contour and Texture Segmentation Introduction](http://www.cs.berkeley.edu/~malik/papers/MalikBLS.pdf)
+* [Efficient Sliding Windows Object Localization](http://www.kyb.mpg.de/fileadmin/user_upload/files/publications/pdfs/pdf5070.pdf)
+* [Image Patch Matching](https://www.cs.ubc.ca/~lowe/papers/ijcv04.pdf)
 
 ### Others
 
@@ -47,11 +48,13 @@ This is the reply from Anthony Musco (team learder of robotics software team).
 
 He says he is mostly tied up with administrative works, so we have a great chance to specialize in analyzing data and giving feed back.
 
+### Sample Dataset
 There are some datasets of similar things we can begin to play with, especially to see how line detection/sliding windows work, since those should be pretty robust between datasets.
-[Park Video for Edge Detection](http://ilab.usc.edu/siagian/Research/data/PAMI07/PAMI07data.html)
-[Objects for Sliding Window](http://www.vision.caltech.edu/html-files/archive.html)
-[Maybe Data for Good Foreground/Background Learning](http://research.microsoft.com/en-us/projects/i2i/data.aspx)
-[Lots of textures to test Edge Detection](http://mosaic.utia.cas.cz/index.php?act=view_texs)
+
+* [Park Video for Edge Detection](http://ilab.usc.edu/siagian/Research/data/PAMI07/PAMI07data.html)
+* [Objects for Sliding Window](http://www.vision.caltech.edu/html-files/archive.html)
+* [Maybe Data for Good Foreground/Background Learning](http://research.microsoft.com/en-us/projects/i2i/data.aspx)
+* [Lots of textures to test Edge Detection](http://mosaic.utia.cas.cz/index.php?act=view_texs)
 
 ### GPS Data
 
